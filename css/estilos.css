@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  width: 100%; }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #ff9100;
+  border-bottom: 5px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 3px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 5px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.carrusel {
+  width: 100%;
+  height: 250px; }
+  .carrusel__containerImagenes {
+    width: 100%;
+    height: 100%; }
+  .carrusel__containerImagen {
+    width: 100%;
+    height: 100%; }
+  .carrusel__img {
+    width: 100%;
+    height: 100%; }
+  .carrusel__flechaIzquierda {
+    width: 50px;
+    height: 50px; }
+  .carrusel__flechaDerecha {
+    width: 50px;
+    height: 50px; }
+
+@media only screen and (min-width: 600px) {
+  .carrusel {
+    width: 100%;
+    height: 500px; } }
+
+@media only screen and (min-width: 992px) {
+  .carrusel {
+    width: 100%;
+    height: 600px; }
+    .carrusel__flechaIzquierda {
+      width: 80px;
+      height: 80px; }
+    .carrusel__flechaDerecha {
+      width: 80px;
+      height: 80px; } }
+
+@media only screen and (min-width: 1400px) {
+  .carrusel {
+    width: 100%;
+    height: 800px; } }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 5px solid #ff9100;
+  border-bottom: 5px solid #ff9100; }
+
+.containerAsideContacto__garbarino {
+  width: 40%;
+  height: auto; }
+
+@media only screen and (min-width: 575px) {
+  .containerAsideContacto {
+    width: auto;
+    height: 500px; }
+}
+
+@media only screen and (min-width: 992px) {
+  .containerAsideContacto {
+    width: 70%;
+    height: auto; }
+}
+
+.containerHeader {
+  display: flex;
+  align-items: center;}
+  .containerHeader__logo {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto; }
+  .containerHeader__contenedorTitulo {
+    width: 70%;
+    height: auto; }
+  .containerHeader__titulo--negrita {
+    font-weight: bold; }
+
+@media only screen and (min-width: 600px) {
+  .containerHeader {
+    justify-content: space-between; }
+}
+
+@media only screen and (min-width: 815px) {
+  .containerHeader__titulo {
+    width: 250px;
+    height: auto; }
+}
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.containerFooter {
+  color: #fff; }
+  .containerFooter__datosDeContacto {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    max-width: 415px; }
+  .containerFooter__escudo {
+    width: 70%;
+    height: auto;
+    max-width: 290px; }
+  .containerFooter__containerRedesSociales {
+    display: flex;
+    width: 100%;
+    height: auto; }
+  .containerFooter__titulo {
+    width: 100%;
+    text-align: center; }
+  .containerFooter__enlaceRedSocial {
+    width: 35px;
+    height: auto; }
+  .containerFooter__copyright {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 11.5px;
+    text-align: center; }
+
+@media only screen and (min-width: 992px) {
+  .containerFooter__copyright {
+    flex-direction: row;
+    justify-content: space-around; } }
+
+.nav {
+  font-family: "Roboto", sans-serif; }
+  .nav__containerEnlaces {
+    width: 100%;
+    height: auto; }
+  .nav__enlace {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 54px;
+    padding: 15px; }
+  .nav__enlace#enlaceHome {
+    color: #ffffff; }
+  .nav__enlace#enlaceHistoria {
+    color: #ffffff; }
+  .nav__enlace#enlaceTitulos {
+    color: #ffffff; }
+  .nav__enlace#enlaceGaleria {
+    color: #ffffff; }
+  .nav__enlace#enlaceContacto {
+    color: #ffffff; }
+  .nav__enlace#enlaceError {
+    color: #ffffff; }
+  .nav__enlace#enlaceHome:hover {
+    background-color: #ffffff;
+    color: #021d5c; }
+  .nav__enlace#enlaceHistoria:hover {
+    background-color: #ffffff;
+    color: #021d5c; }
+  .nav__enlace#enlaceTitulos:hover {
+    background-color: #ffffff;
+    color: #021d5c; }
+  .nav__enlace#enlaceGaleria:hover {
+    background-color: #ffffff;
+    color: #021d5c; }
+  .nav__enlace#enlaceContacto:hover {
+    background-color: #ffffff;
+    color: #021d5c; }
+  .nav__enlace#enlaceError:hover {
+    background-color: #ffffff;
+    color: #021d5c; }
+  .nav__enlace--izquierda {
+    text-align: start;
+    margin-left: 10px; }
+  .nav__enlace--derecha {
+    text-align: end;
+    margin-right: 10px; }
+
+@media only screen and (min-width: 992px) {
+  .nav__containerEnlaces--escritorio {
+    justify-content: center; }
+  .nav__opcion {
+    width: 15%;
+    height: auto; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.mainContainer {
+  background-image: url(../images/back.png); }
+  .mainContainer__containerNoticia {
+    background-color: #ffffff63;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+    max-width: 600px; }
+  .mainContainer__tituloNoticia {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold; }
+  .mainContainer__imgNoticia {
+    max-width: 500px; }
+  .mainContainer__textoNoticia {
+    padding: 10px;
+    padding-top: 0px; }
+  .mainContainer__textoNoticia--negrita {
+    font-weight: bold; }
+
+@media only screen and (min-width: 992px) {
+  .mainContainer__containerNoticia {
+    max-width: 1300px; }
+  .mainContainer__tituloNoticia {
+    width: 100%;
+    height: auto; }
+  .mainContainer__imgNoticia {
+    width: 80%;
+    height: auto;
+    max-width: none; }
+  .mainContainer__textoNoticia {
+    width: 100%;
+    height: auto; }
+  .mainContainer__textoNoticia--negrita {
+    font-weight: bold; } }
+
+@media only screen and (min-width: 1400px) {
+  .mainContainer__imgNoticia {
+    width: 50%;
+    height: auto;
+    max-width: none; }
+  .mainContainer__textoNoticia {
+    width: 50%;
+    height: auto; }
+  .mainContainer__textoNoticia--negrita {
+    font-weight: bold; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #ff9100;
+  border-radius: 30px; }
+
+  .containerHistoria__separadorGrande.col-11 {
+    height: 8px;
+    opacity: 1;
+    color: #ff9100; }
+  .containerHistoria__separadorComun.col-9 {
+    height: 3px;
+    opacity: 1;
+    color: #ff9100; }
+
+@media only screen and (min-width: 600px) {
+  .containerHistoria__titulo {
+    font-size: 1.8rem; }
+  .containerHistoria__texto {
+    font-size: 1.2rem; } }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.section1 hr {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.galeria__fotografia {
+  border-radius: 30px;
+  width: 80%;
+  height: auto;
+  max-width: 400px; }
+
+.bordesFinosAmarillos, .containerAside__oferta, .containerAside__containerSponsors, .containerAsideContacto__containerSponsors, .containerFooter__datosDeContacto, .containerHistoria__img, .containerTitulos__img, .formulario__ingresoDeDatos, .formulario__boton {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillos, .mainContainer__containerNoticia:hover, .galeria__fotografia, .formulario, .imagenContacto {
+  border: 2px solid #ff9100; }
+
+.bordesAnchosAmarillosVerticales, .carrusel {
+  border-top: 2px solid #ff9100;
+  border-bottom: 2px solid #ff9100; }
+
+.bordesFinosNegros, .mainContainer__imgNoticia, .containerTitulos__cabecera, .containerTitulos__informacion {
+  border: 2px solid #000; }
+
+.bordesAnchosNegros, .mainContainer__containerNoticia {
+  border: 2px solid #000;
+  border-radius: 30px; }
+
+.formulario {
+  border-radius: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  width: 95%;
+  height: auto;
+  max-width: 500px; }
+  .formulario__titulo {
+    color: #ff9100;
+    font-weight: bold; }
+  .formulario__tituloInput {
+    width: 100%;
+    height: auto; }
+  .formulario__ingresoDeDatos {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .formulario__ingresoDeDatos::placeholder {
+    color: #000000;
+    opacity: 0.85; }
+  .formulario__ingresoDeDatos:focus {
+    outline: none; }
+  .formulario__containerBotones {
+    width: 100%;
+    height: auto;
+    display: flex; }
+  .formulario__boton {
+    width: 45%;
+    height: auto;
+    color: #000000;
+    font-weight: bold;
+    background-color: #ff9100;
+    border-radius: 10px; }
+  .formulario__boton:hover {
+    color:black ;
+    background-color: white;
+    border-color: #ff9100; }
+
+.imagenContacto {
+  border-radius: 30px; }
+
+.petro {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 15px auto;
+}
+
+.img {
+  border: 2px solid #ff9100 ;
+}
+
+.text {
+  width: 100%;
+  margin: 1%;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.text p {
+  margin-left: 1%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .petro{
+    display: flex;
+    flex-direction:column;
+  }
+}
+
+.a{
+  background-color: rgb(255, 255, 255);
+}
+
+.containerItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item img{
+  width: 90px;
+}
+
+.item h3{
+  color: white;
+  font-size: 20px;
+}
+
+.item p{
+  color: white;
+  font-size: 15px;
+  width: 70%;
+  text-align: center;
+}
+
+.prefooter {
+  background-image: url(../images/back.png);
+}
+
+@media only screen and (max-width: 796px) {
+  .containerItems{
+    flex-direction:column;
+  }
+}
+
+body{
+  background-image: url(../images/back.png);
+}
+
+.containerItems1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+.item1 img{
+  width: 350px;
+  height: 250px;
+  border: 2px solid #ff9100;
+}
+
+.item1 p{
+  color: white;
+  font-size: 15px;
+  width: 70%;
+  text-align: center;
+  height: 135px;
+}
+
+.item1 h3{
+  color: white;
+  font-size: 20px;
+  margin: 4%;
+  text-align: center;
+  align-items: center;
+}
+
+.item1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.item3 p {
+  width: 90%;
+}
+
+@media only screen and (max-width: 1170px) {
+  .containerItems1{
+    flex-direction:column;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .item1 p{
+    padding-bottom: 215px;
+    width: 80%;
+  }
+  .text h1{
+    margin-top: 2%;
+  }
+  .p1{
+    margin-bottom: -15%;
+  }
+  .p2{
+    margin-bottom: -2%;
+  }
+  .p3{
+    margin-bottom: 7%;
+  }
+}
+
+.mainContainer{}
+
+
+.active2{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  width: 100vw;
+  height: 100vh;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(black(0 0 0 / .5), black(0 0 0 / .5)) url(../images/index/carrousel2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.active3{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  width: 100vw;
+  height: 100vh;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(black(0 0 0 / .5), black(0 0 0 / .5)) url(../images/index/carrousel2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.activee{
+  border: #ff9100 solid 2px;
+}
+
+
+.h5{
+  font-size: 40px;
+  text-align: center;
+}
+
+body{
+  background-image: url(../images/back.png);
+}
+
+.flecha{
+width: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .carrusel {
+    width: 100%;
+    height: 600px; }
+    .flechan {
+      width: 30px;
+      height: 30px; 
+      margin-right: 40px;}
+    .flechap {
+      width: 30px;
+      height: 30px; 
+      margin-left: 20px;}
+}
